@@ -1,4 +1,4 @@
-// Логика для кнопки и счетчика
+// Логика для кнопки и счетчика:
 let count = 0;
 
 const button = document.getElementById("click-button");
@@ -10,7 +10,7 @@ button.addEventListener("click", function () {
   counterDisplay.textContent = count;
 });
 
-// Логика для формы и валидации email
+// Логика для формы и валидации email:
 const emailInput = document.getElementById("email");
 const errorMessage = document.getElementById("error-message");
 const submitBtn = document.getElementById("submit-btn");
@@ -29,7 +29,7 @@ emailInput.addEventListener("input", function () {
   }
 });
 
-// Логика для таймера
+// Логика для таймера:
 let secondsPassed = 0;
 const timerDisplay = document.getElementById("timer");
 
